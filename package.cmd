@@ -12,7 +12,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ^
   "if (Test-Path $stage) { Remove-Item $stage -Recurse -Force };" ^
   "New-Item -ItemType Directory \"$stage\files\" | Out-Null;" ^
   "Copy-Item \"$root\build\d3d9.dll\", \"$root\rct3vr.ini\", \"$root\installer\install.ps1\" \"$stage\files\";" ^
-  "Copy-Item \"$root\installer\Installer.bat\", \"$root\installer\Uninstall.bat\", \"$root\installer\LISEZ-MOI.txt\", \"$root\installer\README.txt\" $stage;" ^
+  "Copy-Item \"$root\installer\Installer.bat\", \"$root\installer\Uninstall.bat\", \"$root\installer\README_FR.txt\", \"$root\installer\README.txt\" $stage;" ^
   "$zip = \"$root\dist\$name.zip\";" ^
   "if (Test-Path $zip) { Remove-Item $zip -Force };" ^
   "Compress-Archive -Path \"$stage\*\" -DestinationPath $zip;" ^

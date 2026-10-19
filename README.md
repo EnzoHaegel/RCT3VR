@@ -2,7 +2,7 @@
 
 **Ride the attractions of RollerCoaster Tycoon 3 in virtual reality.**
 
-🇫🇷 [Version française](LISEZ-MOI.md)
+🇫🇷 [Version française](README_FR.md)
 
 When you open a ride camera (coaster view), the image goes to your VR headset in true stereo 3D and you look around by turning your head. The rest of the game is unchanged and played on the monitor as usual.
 
