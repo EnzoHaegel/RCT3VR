@@ -1,0 +1,6 @@
+#pragma once
+
+#define RCT3VR_VERSION_MAJOR 0
+#define RCT3VR_VERSION_MINOR 1
+#define RCT3VR_VERSION_PATCH 0
+#define RCT3VR_VERSION_STRING "0.1.0"

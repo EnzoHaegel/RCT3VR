@@ -1,0 +1,11 @@
+* text=auto
+
+# Windows scripts and files opened by players in Notepad keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.ini text eol=crlf
+installer/*.txt text eol=crlf
+
+*.dll binary
+*.zip binary

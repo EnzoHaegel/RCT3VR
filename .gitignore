@@ -1,0 +1,12 @@
+# Build output (build.cmd / package.cmd)
+/build/
+/dist/
+
+# Files the mod writes next to the game while testing
+*.log
+rct3vr_capture_*/
+
+# Editors
+.vs/
+.vscode/
+CMakeUserPresets.json
